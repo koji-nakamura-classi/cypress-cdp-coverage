@@ -5,7 +5,7 @@
     "serve": "http-server",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
-    "test": "http-server & cypress run; pkill http-server"
+    "test": "http-server & CYPRESS_REMOTE_DEBUGGING_PORT=9222 cypress run --browser chrome --headless; pkill http-server"
   },
   "devDependencies": {
     "cypress": "^6.1.0",
