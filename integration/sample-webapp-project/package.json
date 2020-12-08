@@ -1,0 +1,15 @@
+{
+  "name": "sample-webapp-project",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "http-server",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "test": "http-server & cypress run; pkill http-server"
+  },
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "cypress-cdp-coverage": "file:../..",
+    "http-server": "^0.12.3"
+  }
+}
