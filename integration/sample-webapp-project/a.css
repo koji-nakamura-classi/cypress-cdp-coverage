@@ -1,6 +1,9 @@
 .c1 {
   font-size: large;
 }
+.unused-rule {
+  display: inline;
+}
 .c2 {
   color: gray;
 }

@@ -12,3 +12,4 @@ if (location.search == '?a') {
   a(false);
 }
 
+console.log('executed!!!');
